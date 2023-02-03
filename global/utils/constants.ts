@@ -28,7 +28,9 @@ const { NEXT_PUBLIC_EGO_API_ROOT } = getConfig();
 export const EGO_JWT_KEY = 'EGO_JWT';
 export const EGO_API_KEY_ENDPOINT = `${NEXT_PUBLIC_EGO_API_ROOT}/o/api_key`;
 
-export const EXPLORER_PATH = '/explorer';
+export const HOME_PATH = '/';
+export const FILES_PATH = '/files';
+export const VARIANTS_PATH = '/variants';
 export const USER_PATH = '/user';
 export const LOGIN_PATH = '/login';
 
@@ -37,3 +39,10 @@ const OVERTURE_DMS_DOCS_ROOT = 'https://overture.bio/documentation/dms/';
 export const DMS_HELP_URL = urlJoin(OVERTURE_DMS_DOCS_ROOT, 'user-guide');
 export const DMS_INSTALLATION_URL = urlJoin(OVERTURE_DMS_DOCS_ROOT, 'installation');
 export const DMS_EMAIL_SETTING_URL = urlJoin(DMS_INSTALLATION_URL, 'configuration/prereq/emails');
+
+export type ArrangerProject = 'files' | 'variants';
+
+export const ARRANGER_PROJECTS = {
+  FILES: 'files' as ArrangerProject,
+  VARIANTS: 'variants' as ArrangerProject,
+};
