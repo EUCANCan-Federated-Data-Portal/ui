@@ -1,0 +1,1040 @@
+[
+  {
+    "field": "annotation__aa_change",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__amino_acids_reference",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__amino_acids_variant",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__biotype",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__canonical",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__ccds",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__cdna_length",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__cdna_position",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__cds_length",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__cds_position",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__clin_sig",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__coding_dna_change",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__codons_reference",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__codons_variant",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__consequence",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__cosmic",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__dbsnp",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__domains",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__ensembl_feature_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__ensembl_gene_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__exon_rank",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__exon_total",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__feature_strand",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__feature_type",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__gene_pheno",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__gene_symbol",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__hgvsc",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__hgvsp",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__high_inf_pos",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__intron_rank",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__intron_total",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__mane_plus_clinical",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__mane_select",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__motif_name",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__motif_pos",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__motif_score_change",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__polyphen_impact",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__polyphen_score",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__protein_length",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__protein_position",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__pubmed",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__sift_impact",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__sift_score",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__transcription_factors",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__uniparc",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__uniprotkb_swissprot",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__uniprotkb_trembl",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__vep_impact",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__esp__aa_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__esp__ea_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__gnomad_exomes__af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__gnomad_exomes__afr_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__gnomad_exomes__amr_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__gnomad_exomes__asj_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__gnomad_exomes__eas_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__gnomad_exomes__fin_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__gnomad_exomes__nfe_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__gnomad_exomes__oth_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__gnomad_exomes__sas_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__max_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__max_af_pop",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__thousand_genomes__af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__thousand_genomes__afr_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__thousand_genomes__amr_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__thousand_genomes__eas_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__thousand_genomes__eur_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "frequency__thousand_genomes__sas_af",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__biotype",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__cosmic_gene_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__cytoband",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__description",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__ensembl_gene_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__entrez_gene_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__gene_chromosome",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__gene_end",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__gene_start",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__gene_strand",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__hgnc_gene_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__is_cancer_gene_census",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__name",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__omim_gene_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__symbol",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "gene__synonyms",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "mutation_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__cause_of_death",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__comorbidity__age_at_comorbidity_diagnosis",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__comorbidity__comorbidity_type_code",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__demographic__created_datetime",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__demographic__demographic_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__demographic__ethnicity",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__demographic__gender",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__demographic__race",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__demographic__state",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__demographic__submitter_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__demographic__updated_datetime",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__demographic__year_of_birth",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__demographic__year_of_death",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__gender",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__experimental_strategy",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__platform",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__read_depth__n_alt_count",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__read_depth__n_depth",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__read_depth__n_ref_count",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__read_depth__t_alt_count",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__read_depth__t_depth",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__read_depth__t_ref_count",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__repository",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__sample__matched_normal_submitter_sample_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__sample__sample_type",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__sample__submitter_sample_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__pathological_stage_group",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__pathological_tumour_staging_system",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__percent_tumour_cells",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__specimen_acquisition_interval",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__specimen_anatomic_location",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__specimen_laterality",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__specimen_tissue_source",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__specimen_type",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__submitter_primary_diagnosis_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__submitter_specimen_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__tumour_grade",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__tumour_grading_system",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__tumour_histological_type",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__specimen__tumour_normal_designation",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__src_vcf_analysis_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__variant_caller",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__workflow__genome_build",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__workflow__inputs__analysis_type",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__workflow__inputs__tumour_analysis_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__workflow__workflow_name",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__observation__workflow__workflow_version",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__age_at_diagnosis",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__cancer_type_code",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__clinical_stage_group",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__clinical_tumour_staging_system",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__follow_up__disease_status_at_followup",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__follow_up__interval_of_followup",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__follow_up__relapse_type",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__follow_up__submitter_follow_up_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__follow_up__submitter_treatment_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__laterality",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__lymph_nodes_examined_status",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__performance_status",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__submitter_primary_diagnosis_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__treatment__chemotherapy__chemotherapy_dosage_units",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__treatment__chemotherapy__cumulative_drug_dosage",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__treatment__chemotherapy__drug_name",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__treatment__chemotherapy__drug_rxnormcui",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__treatment__response_to_treatment",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__treatment__submitter_treatment_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__treatment__treatment_duration",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__treatment__treatment_intent",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__treatment__treatment_start_interval",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_diagnosis__treatment__treatment_type",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__primary_site",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__project__disease_type",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__project__name",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__project__primary_site",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__project__project_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__project__released",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__project__state",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__submitter_donor_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__summary__data_categories__data_category",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__summary__data_categories__file_count",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__survival_time",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__vital_status",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "reference_genome_assembly",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "genomic_dna_change",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "chromosome",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "start_position",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "reference_allele",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "tumor_allele",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "variant_class",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  }
+]
