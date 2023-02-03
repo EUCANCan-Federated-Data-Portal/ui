@@ -22,10 +22,10 @@
 import React from 'react';
 import { css, useTheme } from '@emotion/react';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 import UserDropdown from './UserDropdown';
 import defaultTheme from './theme';
-import { OvertureLogo } from './theme/icons';
 import useAuthContext from '../global/hooks/useAuthContext';
 import { StyledLinkAsButton, InternalLink as Link } from './Link';
 import { HOME_PATH, FILES_PATH, VARIANTS_PATH, LOGIN_PATH, USER_PATH } from '../global/utils/constants';
@@ -36,21 +36,20 @@ const NavBar: React.ComponentType = () => {
   const router = useRouter();
   const theme: typeof defaultTheme = useTheme();
 
-  const { NEXT_PUBLIC_LAB_NAME, NEXT_PUBLIC_LOGO_FILENAME, NEXT_PUBLIC_BASE_PATH } = getConfig();
+  const { NEXT_PUBLIC_LAB_NAME } = getConfig();
 
   const activeLinkStyle = `
     background-color: ${theme.colors.grey_2};
     color: ${theme.colors.accent2_dark};
   `;
 
-  const labIcon = NEXT_PUBLIC_LOGO_FILENAME ? (
-    <img
-      src={`${NEXT_PUBLIC_BASE_PATH}/static/dms_user_assets/${NEXT_PUBLIC_LOGO_FILENAME}`}
+  const labIcon = (
+    <Image
+      src={`/static/dms_logo.png`}
       alt={NEXT_PUBLIC_LAB_NAME}
       height={`${theme.dimensions.labIcon.height}px`}
+      width={`${theme.dimensions.labIcon.width}px`}
     />
-  ) : (
-    <OvertureLogo height={theme.dimensions.labIcon.height} />
   );
 
   return (
