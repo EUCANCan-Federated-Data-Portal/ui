@@ -26,4 +26,13 @@ module.exports = withPlugins([withTM], {
   },
   assetPrefix: process.env.ASSET_PREFIX || '',
   optimizeFonts: false,
+  redirects: async () => {
+    return [
+      {
+        source: '/data-explorer',
+        destination: '/',
+        permanent: true,
+      },
+    ];
+  },
 });
