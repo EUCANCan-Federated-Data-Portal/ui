@@ -23,6 +23,7 @@ import React from 'react';
 import { css, useTheme } from '@emotion/react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
+import urlJoin from 'url-join';
 
 import UserDropdown from './UserDropdown';
 import defaultTheme from './theme';
@@ -36,7 +37,7 @@ const NavBar: React.ComponentType = () => {
   const router = useRouter();
   const theme: typeof defaultTheme = useTheme();
 
-  const { NEXT_PUBLIC_LAB_NAME } = getConfig();
+  const { NEXT_PUBLIC_BASE_PATH, NEXT_PUBLIC_LAB_NAME } = getConfig();
 
   const activeLinkStyle = `
     background-color: ${theme.colors.grey_2};
@@ -45,7 +46,7 @@ const NavBar: React.ComponentType = () => {
 
   const labIcon = (
     <Image
-      src={`/static/dms_logo.png`}
+      src={urlJoin(NEXT_PUBLIC_BASE_PATH, '/images/dms_logo.png')}
       alt={NEXT_PUBLIC_LAB_NAME}
       height={`${theme.dimensions.labIcon.height}px`}
       width={`${theme.dimensions.labIcon.width}px`}
@@ -75,7 +76,7 @@ const NavBar: React.ComponentType = () => {
           cursor: pointer;
         `}
       >
-        <Link path={HOME_PATH}>
+        <Link path={urlJoin(NEXT_PUBLIC_BASE_PATH, HOME_PATH)}>
           <a
             css={(theme) => css`
               display: flex;
