@@ -29,7 +29,7 @@ module.exports = withPlugins([withTM], {
   redirects: async () => {
     return [
       {
-        source: '/data-explorer',
+        source: '/explorer',
         destination: '/',
         permanent: true,
       },
