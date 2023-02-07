@@ -1,0 +1,98 @@
+[
+  {
+    "displayName": "variant",
+    "field": "",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  },
+  {
+    "displayName": "Annotation",
+    "field": "annotation",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  },
+  {
+    "displayName": "Gene",
+    "field": "gene",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  },
+  {
+    "displayName": "Occurrence",
+    "field": "occurrence",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  },
+  {
+    "displayName": "Occurrence Comorbidity",
+    "field": "occurrence.comorbidity",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  },
+  {
+    "displayName": "Occurrence Observation",
+    "field": "occurrence.observation",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  },
+  {
+    "displayName": "Occurrence Observation Workflow Inputs",
+    "field": "occurrence.observation.workflow.inputs",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  },
+  {
+    "displayName": "Occurrence Primary Diagnosis",
+    "field": "occurrence.primary_diagnosis",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  },
+  {
+    "displayName": "Occurrence Primary Diagnosis Follow Up",
+    "field": "occurrence.primary_diagnosis.follow_up",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  },
+  {
+    "displayName": "Occurrence Primary Diagnosis Treatment",
+    "field": "occurrence.primary_diagnosis.treatment",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  },
+  {
+    "displayName": "Occurrence Primary Diagnosis Treatment Chemotherapy",
+    "field": "occurrence.primary_diagnosis.treatment.chemotherapy",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  },
+  {
+    "displayName": "Occurrence Summary Data Categories",
+    "field": "occurrence.summary.data_categories",
+    "isActive": false,
+    "keyField": null,
+    "searchFields": [],
+    "__typename": "MatchBoxField"
+  }
+]
