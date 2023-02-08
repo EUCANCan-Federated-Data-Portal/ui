@@ -64,6 +64,13 @@ const DMSApp = ({
 
 DMSApp.getInitialProps = async ({ ctx, Component }: AppContext & { Component: PageWithConfig }) => {
   const pageProps = await Component.getInitialProps({ ...ctx });
+
+  if (ctx.res?.statusCode === 404) {
+    ctx.res.writeHead(302, { Location: '/' });
+    ctx.res.end();
+    return;
+  }
+
   return {
     ctx: {
       pathname: ctx.pathname,

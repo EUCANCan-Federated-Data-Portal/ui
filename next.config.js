@@ -26,13 +26,4 @@ module.exports = withPlugins([withTM], {
   },
   assetPrefix: process.env.ASSET_PREFIX || '',
   optimizeFonts: false,
-  redirects: async () => {
-    return [
-      {
-        source: `${process.env.ASSET_PREFIX || ''}/explorer`,
-        destination: `${process.env.ASSET_PREFIX || ''}/`,
-        permanent: true,
-      },
-    ];
-  },
 });

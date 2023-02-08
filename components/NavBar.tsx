@@ -75,7 +75,7 @@ const NavBar: React.ComponentType = () => {
           cursor: pointer;
         `}
       >
-        <Link path={FILES_PATH}>
+        <Link path={HOME_PATH}>
           <a
             css={(theme) => css`
               display: flex;
