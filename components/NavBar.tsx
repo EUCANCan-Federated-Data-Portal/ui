@@ -22,7 +22,6 @@
 import React from 'react';
 import { css, useTheme } from '@emotion/react';
 import { useRouter } from 'next/router';
-import Image from 'next/image';
 import urlJoin from 'url-join';
 
 import UserDropdown from './UserDropdown';
@@ -45,7 +44,7 @@ const NavBar: React.ComponentType = () => {
   `;
 
   const labIcon = (
-    <Image
+    <img
       src={urlJoin(NEXT_PUBLIC_BASE_PATH, '/images/dms_logo.png')}
       alt={NEXT_PUBLIC_LAB_NAME}
       height={`${theme.dimensions.labIcon.height}px`}
@@ -76,7 +75,7 @@ const NavBar: React.ComponentType = () => {
           cursor: pointer;
         `}
       >
-        <Link path={HOME_PATH}>
+        <Link path={FILES_PATH}>
           <a
             css={(theme) => css`
               display: flex;
