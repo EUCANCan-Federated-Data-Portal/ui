@@ -25,6 +25,7 @@ module.exports = withPlugins([withTM], {
     NEXT_PUBLIC_SSO_PROVIDERS: process.env.NEXT_PUBLIC_SSO_PROVIDERS,
   },
   assetPrefix: process.env.ASSET_PREFIX || '',
+  basePath: process.env.ASSET_PREFIX || '',
   optimizeFonts: false,
   redirects: async () => {
     return [

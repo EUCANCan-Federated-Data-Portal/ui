@@ -76,7 +76,7 @@ const NavBar: React.ComponentType = () => {
           cursor: pointer;
         `}
       >
-        <Link path={urlJoin(NEXT_PUBLIC_BASE_PATH, HOME_PATH)}>
+        <Link path={HOME_PATH}>
           <a
             css={(theme) => css`
               display: flex;
