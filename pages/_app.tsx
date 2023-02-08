@@ -21,6 +21,7 @@
 
 import Root from '../components/Root';
 import { AppContext } from 'next/app';
+import urlJoin from 'url-join';
 
 import { EGO_JWT_KEY, LOGIN_PATH } from '../global/utils/constants';
 import { PageWithConfig } from '../global/utils/pages/types';
@@ -28,6 +29,7 @@ import { useEffect, useState } from 'react';
 import Router from 'next/router';
 import getInternalLink from '../global/utils/getInternalLink';
 import { isValidJwt } from '../global/utils/egoTokenUtils';
+import { getConfig } from '../global/config';
 
 const DMSApp = ({
   Component,
@@ -64,6 +66,14 @@ const DMSApp = ({
 
 DMSApp.getInitialProps = async ({ ctx, Component }: AppContext & { Component: PageWithConfig }) => {
   const pageProps = await Component.getInitialProps({ ...ctx });
+  const { NEXT_PUBLIC_BASE_PATH } = getConfig();
+
+  if (ctx.res?.statusCode === 404) {
+    ctx.res.writeHead(302, { Location: urlJoin(NEXT_PUBLIC_BASE_PATH, '/') });
+    ctx.res.end();
+    return;
+  }
+
   return {
     ctx: {
       pathname: ctx.pathname,
