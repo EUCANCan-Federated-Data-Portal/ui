@@ -19,17 +19,55 @@
  *
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { css } from '@emotion/react';
 import defaultTheme from './theme';
 import { OvertureLogoWithText } from './theme/icons';
 import StyledLink from './Link';
-import { DMS_HELP_URL, DMS_INSTALLATION_URL } from '../global/utils/constants';
+import {
+  DMS_HELP_URL,
+  DMS_INSTALLATION_URL,
+  OVERTURE_ROOT,
+  UI_REPO_URL,
+} from '../global/utils/constants';
 import { getConfig } from '../global/config';
 
-const Footer = () => {
+const EucancanUiVersion = () => {
   const { NEXT_PUBLIC_UI_VERSION } = getConfig();
 
+  return (
+    NEXT_PUBLIC_UI_VERSION ? (
+      <>
+        |
+        <StyledLink
+          css={(theme) => css`
+            ${theme.typography.subheading2};
+            padding-left: 13px;
+          `}
+          href={UI_REPO_URL}
+          target="_blank"
+          >
+          EUCANCan UI
+        </StyledLink>
+        <span
+          css={(theme) =>
+            css`
+              color: ${theme.colors.accent_dark};
+              ${theme.typography.subheading2}
+              line-height: 24px;
+              font-weight: normal;
+              padding-left: 5px;
+            `
+          }
+        >
+          {`v${NEXT_PUBLIC_UI_VERSION}`}
+        </span>
+      </>
+    ) : null
+  );
+};
+
+const Footer = () => {
   return (
     <div
       css={(theme: typeof defaultTheme) => css`
@@ -63,13 +101,14 @@ const Footer = () => {
         css={(theme) => css`
           ${theme.typography.subheading2};
           padding-left: 13px;
-          padding-right: 5px;
+          padding-right: 13px;
         `}
         href={DMS_INSTALLATION_URL}
         target="_blank"
       >
         DMS
       </StyledLink>
+      <EucancanUiVersion />
       <span
         css={(theme) =>
           css`
@@ -82,9 +121,9 @@ const Footer = () => {
           `
         }
       >
-        {NEXT_PUBLIC_UI_VERSION && `UI v${NEXT_PUBLIC_UI_VERSION}`} powered by
+        powered by
       </span>
-      <a href="https://www.overture.bio/" target="_blank">
+      <a href={OVERTURE_ROOT} target="_blank">
         <OvertureLogoWithText width={100} height={18} />
       </a>
     </div>
