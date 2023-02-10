@@ -19,7 +19,7 @@
  *
  */
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import { css } from '@emotion/react';
 import defaultTheme from './theme';
 import { OvertureLogoWithText } from './theme/icons';
