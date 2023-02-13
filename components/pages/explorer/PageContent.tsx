@@ -19,6 +19,8 @@
  *
  */
 
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 import { css } from '@emotion/react';
 import RepoTable from './RepoTable';
 import Facets from './Facets';
@@ -27,6 +29,15 @@ import QueryBar from './QueryBar';
 import { PageContentProps } from './index';
 
 const PageContent = (props: PageContentProps) => {
+  const router = useRouter();
+
+  useEffect(() => {
+    if (router && router.query && router.query.sqon) {
+      const sqon = JSON.parse(router.query.sqon as string);
+      props.setSQON(sqon);
+    }
+  }, []);
+
   return (
     <div
       css={css`
