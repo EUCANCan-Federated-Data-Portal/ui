@@ -3,7 +3,7 @@
   "keyField": "mutation_id",
   "defaultSorted": [
     {
-      "id": "reference_genome_assembly",
+      "id": "genomic_dna_change",
       "desc": false,
       "__typename": "ColumnSort"
     }
@@ -2137,12 +2137,12 @@
       "show": true,
       "type": "string",
       "sortable": true,
-      "canChangeShow": false,
+      "canChangeShow": true,
       "query": null,
       "jsonPath": null,
       "id": null,
-      "field": "reference_genome_assembly",
-      "accessor": "reference_genome_assembly",
+      "field": "genomic_dna_change",
+      "accessor": "genomic_dna_change",
       "__typename": "Column"
     },
     {
@@ -2153,8 +2153,20 @@
       "query": null,
       "jsonPath": null,
       "id": null,
-      "field": "genomic_dna_change",
-      "accessor": "genomic_dna_change",
+      "field": "variant_class",
+      "accessor": "variant_class",
+      "__typename": "Column"
+    },
+    {
+      "show": true,
+      "type": "string",
+      "sortable": true,
+      "canChangeShow": false,
+      "query": null,
+      "jsonPath": null,
+      "id": null,
+      "field": "reference_genome_assembly",
+      "accessor": "reference_genome_assembly",
       "__typename": "Column"
     },
     {
@@ -2203,18 +2215,6 @@
       "id": null,
       "field": "tumor_allele",
       "accessor": "tumor_allele",
-      "__typename": "Column"
-    },
-    {
-      "show": true,
-      "type": "string",
-      "sortable": true,
-      "canChangeShow": true,
-      "query": null,
-      "jsonPath": null,
-      "id": null,
-      "field": "variant_class",
-      "accessor": "variant_class",
       "__typename": "Column"
     }
   ],
