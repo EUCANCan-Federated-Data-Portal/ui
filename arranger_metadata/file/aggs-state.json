@@ -30,7 +30,13 @@
     "__typename": "AggState"
   },
   {
-    "field": "analysis__analysis_type",
+    "field": "donors__specimens__specimen_tissue_source",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "donors__specimens__tumour_normal_designation",
     "active": true,
     "show": true,
     "__typename": "AggState"
@@ -69,18 +75,6 @@
     "field": "analysis__updated_at",
     "active": true,
     "show": false,
-    "__typename": "AggState"
-  },
-  {
-    "field": "donors__specimens__specimen_tissue_source",
-    "active": true,
-    "show": true,
-    "__typename": "AggState"
-  },
-  {
-    "field": "donors__specimens__tumour_normal_designation",
-    "active": true,
-    "show": true,
     "__typename": "AggState"
   },
   {

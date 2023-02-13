@@ -996,6 +996,12 @@
     "__typename": "AggState"
   },
   {
+    "field": "variant_class",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
     "field": "reference_genome_assembly",
     "active": true,
     "show": true,
@@ -1004,7 +1010,7 @@
   {
     "field": "genomic_dna_change",
     "active": true,
-    "show": true,
+    "show": false,
     "__typename": "AggState"
   },
   {
@@ -1027,12 +1033,6 @@
   },
   {
     "field": "tumor_allele",
-    "active": true,
-    "show": true,
-    "__typename": "AggState"
-  },
-  {
-    "field": "variant_class",
     "active": true,
     "show": true,
     "__typename": "AggState"
