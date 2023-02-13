@@ -28,6 +28,7 @@ import StyledLink from '../../Link';
 import { DMSThemeInterface } from '../../theme';
 import { getConfig } from '../../../global/config';
 import { getArrangerConfig } from '../../../global/utils/config';
+import { SCORE_DOWNLOAD_GUIDE_URL } from '../../../global/utils/constants';
 
 const Table = dynamic(
   () => import('@arranger/components/dist/Arranger').then((comp) => comp.Table),
@@ -265,7 +266,7 @@ const RepoTable = (props: PageContentProps) => {
           css={css`
             line-height: inherit;
           `}
-          href="https://overture.bio/documentation/score/user-guide/download"
+          href={SCORE_DOWNLOAD_GUIDE_URL}
           rel="noopener noreferrer"
           target="_blank"
         >
