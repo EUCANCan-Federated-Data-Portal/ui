@@ -21,14 +21,9 @@
 
 import dynamic from 'next/dynamic';
 import { css, useTheme } from '@emotion/react';
-import urlJoin from 'url-join';
 
 import { PageContentProps } from './index';
-import StyledLink from '../../Link';
 import { DMSThemeInterface } from '../../theme';
-import { getConfig } from '../../../global/config';
-import { getArrangerConfig } from '../../../global/utils/config';
-import { SCORE_DOWNLOAD_GUIDE_URL } from '../../../global/utils/constants';
 
 const Table = dynamic(
   () => import('@arranger/components/dist/Arranger').then((comp) => comp.Table),
@@ -231,51 +226,7 @@ const getTableStyle = (theme: DMSThemeInterface) => css`
 `;
 
 const RepoTable = (props: PageContentProps) => {
-  const {
-    NEXT_PUBLIC_ARRANGER_API,
-    NEXT_PUBLIC_ARRANGER_MANIFEST_COLUMNS,
-  } = getConfig();
-  const {
-    NEXT_PUBLIC_ARRANGER_PROJECT_ID,
-  } = getArrangerConfig(props.project);
   const theme = useTheme();
-  const manifestColumns = NEXT_PUBLIC_ARRANGER_MANIFEST_COLUMNS.split(',')
-    .filter((field) => field.trim()) // break it into arrays, and ensure there's no empty field names
-    .map((fieldName) => fieldName.replace(/['"]+/g, '').trim());
-
-  const today = new Date().toISOString().slice(0, 10).replace(/-/g, '');
-  const customExporters = [
-    { label: 'File Table', fileName: `data-explorer-table-export.${today}.tsv` }, // exports a TSV with what is displayed on the table (columns selected, etc.)
-    { label: 'File Manifest', fileName: `score-manifest.${today}.tsv`, columns: manifestColumns }, // exports a TSV with the manifest columns
-    { label: () => (
-      <span
-        css={css`
-          border-top: 1px solid ${theme.colors.grey_3};
-          margin-top: -3px;
-          padding-top: 7px;
-          white-space: pre-line;
-          width: 140px;
-
-          a {
-            margin-left: 3px;
-          }
-        `}
-      >
-        To download files using a file manifest, please follow these
-        <StyledLink
-          css={css`
-            line-height: inherit;
-          `}
-          href={SCORE_DOWNLOAD_GUIDE_URL}
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          instructions
-        </StyledLink>
-        .
-      </span>
-    ), },
-  ];
 
   return (
     <div css={getTableStyle(theme)}>
@@ -283,9 +234,7 @@ const RepoTable = (props: PageContentProps) => {
         {...props}
         showFilterInput={false}
         columnDropdownText={'Columns'}
-        exporter={customExporters}
-        downloadUrl={urlJoin(NEXT_PUBLIC_ARRANGER_API, NEXT_PUBLIC_ARRANGER_PROJECT_ID, 'download')}
-        enableSelectedTableRowsExporterFilter
+        allowTSVExport={false}
       />
     </div>
   );
