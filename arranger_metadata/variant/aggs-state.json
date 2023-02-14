@@ -1,5 +1,41 @@
 [
   {
+    "field": "annotation__variant_class",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__file__file_type",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__file__md5sum",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__file__name",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__file__object_id",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
+    "field": "occurrence__file__size",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
     "field": "annotation__aa_change",
     "active": true,
     "show": false,
@@ -13,12 +49,6 @@
   },
   {
     "field": "annotation__amino_acids_variant",
-    "active": true,
-    "show": false,
-    "__typename": "AggState"
-  },
-  {
-    "field": "annotation__biotype",
     "active": true,
     "show": false,
     "__typename": "AggState"
@@ -84,12 +114,6 @@
     "__typename": "AggState"
   },
   {
-    "field": "annotation__consequence",
-    "active": true,
-    "show": false,
-    "__typename": "AggState"
-  },
-  {
     "field": "annotation__cosmic",
     "active": true,
     "show": false,
@@ -133,12 +157,6 @@
   },
   {
     "field": "annotation__feature_strand",
-    "active": true,
-    "show": false,
-    "__typename": "AggState"
-  },
-  {
-    "field": "annotation__feature_type",
     "active": true,
     "show": false,
     "__typename": "AggState"
@@ -216,12 +234,6 @@
     "__typename": "AggState"
   },
   {
-    "field": "annotation__polyphen_impact",
-    "active": true,
-    "show": false,
-    "__typename": "AggState"
-  },
-  {
     "field": "annotation__polyphen_score",
     "active": true,
     "show": false,
@@ -241,12 +253,6 @@
   },
   {
     "field": "annotation__pubmed",
-    "active": true,
-    "show": false,
-    "__typename": "AggState"
-  },
-  {
-    "field": "annotation__sift_impact",
     "active": true,
     "show": false,
     "__typename": "AggState"
@@ -277,12 +283,6 @@
   },
   {
     "field": "annotation__uniprotkb_trembl",
-    "active": true,
-    "show": false,
-    "__typename": "AggState"
-  },
-  {
-    "field": "annotation__vep_impact",
     "active": true,
     "show": false,
     "__typename": "AggState"
@@ -996,6 +996,12 @@
     "__typename": "AggState"
   },
   {
+    "field": "genomic_dna_change",
+    "active": true,
+    "show": false,
+    "__typename": "AggState"
+  },
+  {
     "field": "variant_class",
     "active": true,
     "show": true,
@@ -1008,9 +1014,39 @@
     "__typename": "AggState"
   },
   {
-    "field": "genomic_dna_change",
+    "field": "annotation__biotype",
     "active": true,
-    "show": false,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__consequence",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__feature_type",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__polyphen_impact",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__sift_impact",
+    "active": true,
+    "show": true,
+    "__typename": "AggState"
+  },
+  {
+    "field": "annotation__vep_impact",
+    "active": true,
+    "show": true,
     "__typename": "AggState"
   },
   {
