@@ -24,6 +24,7 @@ import { css, useTheme } from '@emotion/react';
 
 import { PageContentProps } from './index';
 import { DMSThemeInterface } from '../../theme';
+import { FilesObjectIdCell, VariantsFileIdCell } from '../../TableCells';
 
 const Table = dynamic(
   () => import('@arranger/components/dist/Arranger').then((comp) => comp.Table),
@@ -235,6 +236,10 @@ const RepoTable = (props: PageContentProps) => {
         showFilterInput={false}
         columnDropdownText={'Columns'}
         allowTSVExport={false}
+        customTypes={{
+          variants_file_id: (props: any) => <VariantsFileIdCell {...props} />,
+          files_object_id: (props: any) => <FilesObjectIdCell {...props} />,
+        }}
       />
     </div>
   );

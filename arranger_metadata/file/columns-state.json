@@ -11,7 +11,7 @@
   "columns": [
     {
       "show": true,
-      "type": "string",
+      "type": "files_object_id",
       "sortable": true,
       "canChangeShow": true,
       "query": null,
