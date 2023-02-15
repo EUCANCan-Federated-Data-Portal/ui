@@ -2135,8 +2135,8 @@
     },
     {
       "show": true,
-      "type": "list",
-      "sortable": false,
+      "type": "variants_file_id",
+      "sortable": true,
       "canChangeShow": true,
       "query": "occurrence {\n                hits {\n                edges {\n                node {\n                file {\n                object_id\n              }\n              }\n              }\n              }\n              }",
       "jsonPath": "$.occurrence.hits.edges[*].node.file.object_id",
