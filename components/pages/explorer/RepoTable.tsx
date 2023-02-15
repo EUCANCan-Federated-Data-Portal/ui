@@ -21,14 +21,10 @@
 
 import dynamic from 'next/dynamic';
 import { css, useTheme } from '@emotion/react';
-import { get } from 'lodash';
-import urlJoin from 'url-join';
 
 import { PageContentProps } from './index';
-import { FILES_PATH, VARIANTS_PATH } from '../../../global/utils/constants';
 import { DMSThemeInterface } from '../../theme';
-import StyledLink from '../../Link';
-import { getConfig } from '../../../global/config';
+import { FilesObjectIdCell, VariantsFileIdCell } from '../../TableCells';
 
 const Table = dynamic(
   () => import('@arranger/components/dist/Arranger').then((comp) => comp.Table),
@@ -229,24 +225,6 @@ const getTableStyle = (theme: DMSThemeInterface) => css`
     }
   }
 `;
-
-const VariantsFileIdCell = (props: any) => {
-  const { NEXT_PUBLIC_BASE_PATH } = getConfig();
-  const value = get(props, "original.occurrence.hits.edges[0].node.file.object_id");
-  const fileLink = urlJoin(NEXT_PUBLIC_BASE_PATH, `${FILES_PATH}/?sqon={"op":"and","content":[{"op":"in","content":{"field":"object_id","value":["${value}"]}}]}`);
-  return value ? (
-    <StyledLink href={fileLink}>{value}</StyledLink>
-  ) : null;
-};
-
-const FilesObjectIdCell = (props: any) => {
-  const { NEXT_PUBLIC_BASE_PATH } = getConfig();
-  const value = get(props, "value");
-  const fileLink = urlJoin(NEXT_PUBLIC_BASE_PATH, `${VARIANTS_PATH}/?sqon={"op":"and","content":[{"op":"in","content":{"field":"occurrence.file.object_id","value":["${value}"]}}]}`);
-  return value ? (
-    <StyledLink href={fileLink}>{value}</StyledLink>
-  ) : null;
-};
 
 const RepoTable = (props: PageContentProps) => {
   const theme = useTheme();
